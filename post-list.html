@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="feed-page">
+
+
+
+
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold display-2 " href="#">STACKLY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex" role="search">
+                    <input class="form-control rounded-pill border-2 border-secondary me-2" type="search"
+                        placeholder="Search" aria-label="Search" />
+
+                </form>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signout</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar ends -->
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container mt-5 ">
+        <div class="row">
+
+
+
+
+            <!-- Left Sidebar -->
+            <div class="col-lg-2 d-none d-lg-block  p-4 bg-white border  border-secondary rounded fw-semibold ">
+
+                <nav class="nav flex-column lh-lg">
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-house"></i></i> Home</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-search"></i> Search</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-compass"></i> Explore</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-briefcase"></i> Jobs</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-book"></i> Courses</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-message"></i> Messages</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-plus-square"></i> Post</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-user-plus"></i> Connect</a>
+                    <a class="nav-link " href="#"><i class="fs-5 fa-solid fa-gear"></i> Settings</a>
+
+                </nav>
+            </div>
+
+            <!-- Feed Section -->
+            <div class="col-lg-7 col-md-12 p-3 ">
+
+
+
+                <!-- add Post -->
+                <div class="card border border-secondary ">
+                    <div class="card-body">
+                        <div class=" add-post d-flex align-items-center  mb-2">
+                            <img src="./images/profile.jpg" class="rounded-circle me-2 profile-pic" alt="">
+                            <button class="btn btn-lg btn-outline-secondary mx-auto rounded-pill border-2 w-75 ">Start a
+                                post
+                            </button>
+
+                        </div>
+
+
+                        <div class="mt-2 d-flex justify-content-around">
+                            <div class=""><i class="fa-solid fa-video text-success  fs-5"></i> Video</div>
+                            <div class=""><i class="fa-solid fa-image text-primary fs-5"></i> Photo</div>
+                            <div class=""><i class="fa-solid fa-newspaper text-danger fs-5"></i> write aticle</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post-line"></div>
+
+
+
+                <!-- post -->
+
+                <div class="card border border-secondary mt-2">
+                    <div class="card-body">
+                        <div class=" post-pofile d-flex align-items-center  mb-2">
+                            <img src="./images/profile.jpg" class="rounded-circle me-2 profile-pic" alt="">
+
+
+
+                        </div>
+
+                        <img src="post.jpg" class="rounded" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="col-lg-3 d-none d-lg-block  p-3 bg-white border  border-secondary rounded">
+                <h6 class="fw-bold">Suggestions for you</h6>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="profile2.jpg" class="rounded-circle me-2" width="40" height="40">
+                    <div>
+                        <strong>@leo</strong><br>
+                        <a href="#" class="small text-primary">Connect</a>
+                    </div>
+                </div>
+                <!-- repeat suggestions -->
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
