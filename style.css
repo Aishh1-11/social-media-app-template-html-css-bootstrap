@@ -15,6 +15,9 @@ body {
   line-height: 1.7;
   color: var(--c-body);
 }
+body.about-page {
+  background-color: white;
+}
 
 h1,
 h2,
@@ -38,6 +41,10 @@ html {
 img {
   max-width: 100%;
   height: 100%;
+}
+
+.brand-txt {
+  color: var(--c-brand);
 }
 
 .section-padding {
@@ -76,7 +83,7 @@ img {
   transform: translateY(-6px);
 }
 
-.btn {
+.home-page.btn {
   font-weight: 550;
   font-size: 14px;
   text-transform: uppercase;
@@ -168,7 +175,7 @@ footer a:hover {
 }
 
 /* feed  */
-body.feed-page {
+body {
   background-color: #f3f2ef;
 }
 .bg-white {
@@ -189,5 +196,49 @@ nav > .nav-link {
   width: 97%;
   height: 1px;
   margin: 16px auto 24px auto;
-  background-color: var(--c-dark);
+  background-color: var(--c-body);
+}
+
+.job-title {
+  font-size: small;
+  color: var(--c-body);
+  font-weight: bold;
+}
+
+.post img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn-post {
+  color: var(--c-dark);
+  transition: transform 0.3s ease;
+}
+.btn-post:hover {
+  background-color: var(--transparent-blue);
+  transform: scale(1.1);
+  color: var(--c-brand);
+}
+.icons {
+  color: #f3f2ef;
+}
+
+.profile-pic-lg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.myposts {
+  width: 95%;
+}
+
+.my-post img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100); /* makes white → black */
 }
