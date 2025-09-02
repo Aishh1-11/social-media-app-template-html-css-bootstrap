@@ -242,3 +242,8 @@ nav > .nav-link {
 .carousel-control-next-icon {
   filter: invert(1) grayscale(100); /* makes white → black */
 }
+
+.sticky-side-bar {
+  position: sticky;
+  top: 110px;
+}
