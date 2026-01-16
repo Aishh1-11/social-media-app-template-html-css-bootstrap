@@ -1,7 +1,7 @@
 # Social Media Template
 
-This is a **static social media website template** built using **HTML, CSS**, and basic frontend design techniques.  
-I created this project as part of my learning practice to improve my web development and UI design skills.
+This is a **social media website template** built using **HTML, CSS**, and basic frontend design techniques.  
+
 
 The template includes multiple pages commonly found in social media platforms, such as feeds, profile pages, and edit profile forms.
 
